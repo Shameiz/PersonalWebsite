@@ -30,7 +30,7 @@ h6 {
 }
 
 section {
-  padding: 100px 0;
+  padding: 75px 0;
 }
 
 section h2.section-heading {
@@ -50,7 +50,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 100px 0;
   }
 }
 
@@ -167,7 +167,8 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/NYC.jpg");
+  background-image: none;
+  background-color: grey;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -177,9 +178,14 @@ header.masthead {
   background-size: cover;
 }
 
-header.masthead .intro-text {
-  padding-top: 150px;
+header.masthead.profile-img{
+  padding-top: 50px;
   padding-bottom: 100px;
+}
+
+header.masthead .intro-text {
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -191,7 +197,7 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 50px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
@@ -200,21 +206,21 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 75px;
+    padding-bottom: 50px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
+    font-size: 25px;
     font-style: italic;
     line-height: 40px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 75px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 75px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 }

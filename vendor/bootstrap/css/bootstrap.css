@@ -482,6 +482,15 @@ mark,
   height: auto;
 }
 
+.img-round{
+  border-radius: 50%;
+}
+
+.profile-img{
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
